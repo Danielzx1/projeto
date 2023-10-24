@@ -99,7 +99,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid  var(--highlight-color);
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -179,13 +179,13 @@ footer {
 
 /* media queries */
 @media (min-width: 700px) {
-   :root{
-     --bg-url: url( ./assets/bg-desktop.jpg);
-   }
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
 
-   .light{
+  .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
-   }
+  }
 }
 
 /*animation */
@@ -193,7 +193,7 @@ footer {
   from {
     left: 0;
   }
-  to{
+  to {
     left: 50%;
   }
 }
@@ -201,10 +201,8 @@ footer {
 @keyframes slide-back {
   from {
     left: 50%;
-  
   }
   to {
     left: 0;
   }
-  
 }
